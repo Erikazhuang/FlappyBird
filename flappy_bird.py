@@ -29,7 +29,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flappy Bird")
 font = pygame.font.Font(None, 36)
 
-bird_image = pygame.image.load("birdpic.jpg")
+bird_image = pygame.image.load("birdpic.png")
 bird_image = pygame.transform.scale(bird_image, (BIRD_WIDTH, BIRD_HEIGHT))  # Resize the image
 
 class Bird:
